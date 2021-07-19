@@ -1,0 +1,32 @@
+.legend {
+    width: 90px;
+    font-size: 12px;
+    color: #333333;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    padding: 10px 0px 10px 0px;
+    background-color:white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    opacity: 1;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.legend i {
+  float: left;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  margin-left: 8px;
+  opacity: 0.7;
+}
+
+.leaflet-bottom.leaflet-left {
+  width: 90%;
+}
+
+.leaflet-control-container .leaflet-timeline-controls {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 15px;
+}
